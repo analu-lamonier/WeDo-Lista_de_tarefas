@@ -1,0 +1,125 @@
+body {
+  font-family: Poppins;
+  background-color: #FFE4F8;
+  padding: 30px;
+  color: #000;
+  background-image: url('./img/PlanoDeFundo.jpg');
+  /* background-position: center; */
+  background-size: cover ;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+
+
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  background-color: #FFFFCC;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+input {
+  box-sizing: border-box;
+
+}
+
+button {
+  background-color: #40246D;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 12px;
+  margin-left: 5px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+  
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.todo-list {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.todo {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+
+.todo-form {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #555;
+
+}
+
+input[type="text"],
+select {
+  background-color:  white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 100%;
+  color: #000;
+}
+
+button.complete {
+  
+  border-radius: 37px;
+  background: #63C673;
+  color: #fff;
+}
+
+button.remove {
+  border-radius: 37px;
+  background-color:#FD5D5B;
+  color: #fff;
+}
+
+.Navbar {
+
+padding: 38px 50px;
+justify-content: center;
+margin: 10px;
+margin-bottom:px;
+align-items: center;
+gap: 10px;
+border-radius: 64px;
+border: 1px solid #000;
+background: #FFF;
+color: #000;
+font-family: Poppins;
+font-size: 32px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+
+
+}
